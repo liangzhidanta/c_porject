@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/c_porject/function_main/build",
+  "command": "D:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\MyCMakeproject.dir\\func.c.obj -c D:\\c_porject\\function_main\\func.c",
+  "file": "D:/c_porject/function_main/func.c",
+  "output": "CMakeFiles/MyCMakeproject.dir/func.c.obj"
+},
+{
+  "directory": "D:/c_porject/function_main/build",
+  "command": "D:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\MyCMakeproject.dir\\global_variables.c.obj -c D:\\c_porject\\function_main\\global_variables.c",
+  "file": "D:/c_porject/function_main/global_variables.c",
+  "output": "CMakeFiles/MyCMakeproject.dir/global_variables.c.obj"
+},
+{
+  "directory": "D:/c_porject/function_main/build",
+  "command": "D:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\MyCMakeproject.dir\\main.c.obj -c D:\\c_porject\\function_main\\main.c",
+  "file": "D:/c_porject/function_main/main.c",
+  "output": "CMakeFiles/MyCMakeproject.dir/main.c.obj"
+}
+]
