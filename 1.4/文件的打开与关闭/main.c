@@ -2,7 +2,7 @@
  * @Author: liangzhidanta_wsh 1652168492@qq.com
  * @Date: 2025-01-04 14:41:16
  * @LastEditors: liangzhidanta_wsh 1652168492@qq.com
- * @LastEditTime: 2025-01-05 10:28:49
+ * @LastEditTime: 2025-01-05 11:22:29
  * @FilePath: \文件的打开与关闭\main.c
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -19,9 +19,9 @@ int main() {
     }
     //循环读取文件
     char c ;
-    c = getc(fp);
-    while (c != EOF) {
-        printf("%c", c);
+    while ((c = fgetc(fp)) != EOF) {
+        putchar(c);
     }
+    fclose(fp);
     return 0;
 }
