@@ -1,0 +1,5 @@
+﻿  源.cpp
+D:\24短期班\day8\11-vector嵌套\源.cpp(15,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\24短期班\day8\11-vector嵌套\源.cpp(34,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\24短期班\day8\11-vector嵌套\源.cpp(35,21): warning C4018: “<”: 有符号/无符号不匹配
+  11-vector嵌套.vcxproj -> D:\24短期班\day8\Debug\11-vector嵌套.exe
