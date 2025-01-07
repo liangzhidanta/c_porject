@@ -2,7 +2,7 @@
  * @Author: liangzhidanta_wsh 1652168492@qq.com
  * @Date: 2024-12-30 21:17:56
  * @LastEditors: liangzhidanta_wsh 1652168492@qq.com
- * @LastEditTime: 2025-01-01 19:07:33
+ * @LastEditTime: 2025-01-07 11:02:13
  * @FilePath: \c_porject\pointer\pointer_1.c
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -24,9 +24,10 @@ int main()
     void strcopy(char *dest, const char *src);
     //指针与一维数组
     char p[20] = "hello world";
-    change(p);
+    change(p);//changr函数修改数组元素，不能使用指针形式
     puts(p);
-
+/* 字符串字面量被视为const数据。 由于p指向这个const数据，所以应该把p声明为指向const数据的指针。
+   这意味着不能用p改变它所指向的数据，但是仍然可以改变p的值（即，p指向的位置）。 */
     //指针与动态内存申请
     int i = 50; //申请内存
     char *p1 = (char *)malloc(i);//以字节为单位分配内存；malloc返回一个void类型的指针，需要强转为char类型
