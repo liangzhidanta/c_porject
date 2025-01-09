@@ -1,7 +1,12 @@
 {
     "files.associations": {
         "stdlib.h": "c",
+<<<<<<< HEAD
         "string": "cpp"
+=======
+        "vector": "cpp",
+        "iostream": "cpp"
+>>>>>>> branch_1
     },
     "cmake.ignoreCMakeListsMissing": true
 }
