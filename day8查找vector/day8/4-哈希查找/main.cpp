@@ -19,7 +19,7 @@
  * 返回值：
  *   返回键的哈希值。
  */
-int hash(const char* key)
+int hash(const char* key)//elf_hash,一种哈希算法
 {
     int h = 0, g;
     while (*key)
